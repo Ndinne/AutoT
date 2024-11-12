@@ -30,7 +30,7 @@ start_timefull = time.time()
 # Function to set up a new WebDriver instance
 def setup_driver():
     chrome_options = Options()
-    # chrome_options.add_argument('--headless')  # Uncomment for headless mode
+    chrome_options.add_argument('--headless')  
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
     chrome_options.add_argument("--log-level=3")  # Suppress logs
