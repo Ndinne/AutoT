@@ -9,7 +9,7 @@ on:
 jobs:
   RunScript:
     runs-on: ubuntu-latest
-    concurrency: my-concurrency-group255yt
+    concurrency: my-concurrency-group255yt_12
     timeout-minutes: 4000
 
     steps:
