@@ -32,4 +32,4 @@ jobs:
       - name: Execute main code
         run: |
           python 1_to_6.py
-U
+
